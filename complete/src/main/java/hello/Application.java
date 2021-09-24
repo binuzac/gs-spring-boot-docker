@@ -11,7 +11,7 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Welcome to Binu Zachariah Devops Capstone Project for Aetna Healthcare";
+		return "Welcome to my Devops Capstone Project for Aetna Healthcare";
 	}
 
 	public static void main(String[] args) {
