@@ -11,8 +11,8 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Welcome to my Devops Capstone Project for Aetna Healthcare";
-	 }
+		return "Hello Docker World";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
